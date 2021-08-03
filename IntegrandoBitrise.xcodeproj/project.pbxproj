@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0AC6C4D7AB7B94B734D2A8 /* Pods_IntegrandoBitrise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EC2EFDCC75C2D95D51AB7D /* Pods_IntegrandoBitrise.framework */; };
 		FAF1534226B996370093FA69 /* IntegrandoBitriseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1534126B996370093FA69 /* IntegrandoBitriseApp.swift */; };
 		FAF1534426B996370093FA69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1534326B996370093FA69 /* ContentView.swift */; };
 		FAF1534626B9963A0093FA69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1534526B9963A0093FA69 /* Assets.xcassets */; };
 		FAF1534926B9963A0093FA69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1534826B9963A0093FA69 /* Preview Assets.xcassets */; };
+		FAF1535726B9AC670093FA69 /* IntegrandoBitriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1535626B9AC670093FA69 /* IntegrandoBitriseTests.swift */; };
+		FAF1535F26B9AC810093FA69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1535E26B9AC810093FA69 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FAF1535926B9AC670093FA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF1533626B996370093FA69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF1533D26B996370093FA69;
+			remoteInfo = IntegrandoBitrise;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		73EC2EFDCC75C2D95D51AB7D /* Pods_IntegrandoBitrise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrandoBitrise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFD43E26BC13CD08E606ED2 /* Pods-IntegrandoBitrise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrandoBitrise.debug.xcconfig"; path = "Target Support Files/Pods-IntegrandoBitrise/Pods-IntegrandoBitrise.debug.xcconfig"; sourceTree = "<group>"; };
+		E482F5BA43E0FAF8FC47A946 /* Pods-IntegrandoBitrise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrandoBitrise.release.xcconfig"; path = "Target Support Files/Pods-IntegrandoBitrise/Pods-IntegrandoBitrise.release.xcconfig"; sourceTree = "<group>"; };
 		FAF1533E26B996370093FA69 /* IntegrandoBitrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrandoBitrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1534126B996370093FA69 /* IntegrandoBitriseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrandoBitriseApp.swift; sourceTree = "<group>"; };
 		FAF1534326B996370093FA69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAF1534526B9963A0093FA69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF1534826B9963A0093FA69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAF1534A26B9963A0093FA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1535426B9AC670093FA69 /* IntegrandoBitriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegrandoBitriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1535626B9AC670093FA69 /* IntegrandoBitriseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrandoBitriseTests.swift; sourceTree = "<group>"; };
+		FAF1535826B9AC670093FA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1535E26B9AC810093FA69 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FAF1533B26B996370093FA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0AC6C4D7AB7B94B734D2A8 /* Pods_IntegrandoBitrise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1535126B9AC670093FA69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,11 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33AAE95A3EEDD865F1B55C2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73EC2EFDCC75C2D95D51AB7D /* Pods_IntegrandoBitrise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9CDB886705812044EB66EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD43E26BC13CD08E606ED2 /* Pods-IntegrandoBitrise.debug.xcconfig */,
+				E482F5BA43E0FAF8FC47A946 /* Pods-IntegrandoBitrise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAF1533526B996370093FA69 = {
 			isa = PBXGroup;
 			children = (
 				FAF1534026B996370093FA69 /* IntegrandoBitrise */,
+				FAF1535526B9AC670093FA69 /* IntegrandoBitriseTests */,
 				FAF1533F26B996370093FA69 /* Products */,
+				EC9CDB886705812044EB66EA /* Pods */,
+				33AAE95A3EEDD865F1B55C2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF1533E26B996370093FA69 /* IntegrandoBitrise.app */,
+				FAF1535426B9AC670093FA69 /* IntegrandoBitriseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +106,7 @@
 				FAF1534526B9963A0093FA69 /* Assets.xcassets */,
 				FAF1534A26B9963A0093FA69 /* Info.plist */,
 				FAF1534726B9963A0093FA69 /* Preview Content */,
+				FAF1535E26B9AC810093FA69 /* ViewModel.swift */,
 			);
 			path = IntegrandoBitrise;
 			sourceTree = "<group>";
@@ -69,6 +119,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FAF1535526B9AC670093FA69 /* IntegrandoBitriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1535626B9AC670093FA69 /* IntegrandoBitriseTests.swift */,
+				FAF1535826B9AC670093FA69 /* Info.plist */,
+			);
+			path = IntegrandoBitriseTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF1534D26B9963A0093FA69 /* Build configuration list for PBXNativeTarget "IntegrandoBitrise" */;
 			buildPhases = (
+				A9FCDFF089E7E42C75DF7244 /* [CP] Check Pods Manifest.lock */,
 				FAF1533A26B996370093FA69 /* Sources */,
 				FAF1533B26B996370093FA69 /* Frameworks */,
 				FAF1533C26B996370093FA69 /* Resources */,
+				79AC4B89CF235ACF2820D9EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -88,6 +149,24 @@
 			productName = IntegrandoBitrise;
 			productReference = FAF1533E26B996370093FA69 /* IntegrandoBitrise.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FAF1535326B9AC670093FA69 /* IntegrandoBitriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1535D26B9AC670093FA69 /* Build configuration list for PBXNativeTarget "IntegrandoBitriseTests" */;
+			buildPhases = (
+				FAF1535026B9AC670093FA69 /* Sources */,
+				FAF1535126B9AC670093FA69 /* Frameworks */,
+				FAF1535226B9AC670093FA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF1535A26B9AC670093FA69 /* PBXTargetDependency */,
+			);
+			name = IntegrandoBitriseTests;
+			productName = IntegrandoBitriseTests;
+			productReference = FAF1535426B9AC670093FA69 /* IntegrandoBitriseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +179,10 @@
 				TargetAttributes = {
 					FAF1533D26B996370093FA69 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					FAF1535326B9AC670093FA69 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FAF1533D26B996370093FA69;
 					};
 				};
 			};
@@ -117,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				FAF1533D26B996370093FA69 /* IntegrandoBitrise */,
+				FAF1535326B9AC670093FA69 /* IntegrandoBitriseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +215,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAF1535226B9AC670093FA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79AC4B89CF235ACF2820D9EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegrandoBitrise/Pods-IntegrandoBitrise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegrandoBitrise/Pods-IntegrandoBitrise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntegrandoBitrise/Pods-IntegrandoBitrise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9FCDFF089E7E42C75DF7244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntegrandoBitrise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAF1533A26B996370093FA69 /* Sources */ = {
@@ -139,11 +272,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF1534426B996370093FA69 /* ContentView.swift in Sources */,
+				FAF1535F26B9AC810093FA69 /* ViewModel.swift in Sources */,
 				FAF1534226B996370093FA69 /* IntegrandoBitriseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAF1535026B9AC670093FA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1535726B9AC670093FA69 /* IntegrandoBitriseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF1535A26B9AC670093FA69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF1533D26B996370093FA69 /* IntegrandoBitrise */;
+			targetProxy = FAF1535926B9AC670093FA69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FAF1534B26B9963A0093FA69 /* Debug */ = {
@@ -264,6 +414,7 @@
 		};
 		FAF1534E26B9963A0093FA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFD43E26BC13CD08E606ED2 /* Pods-IntegrandoBitrise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +436,7 @@
 		};
 		FAF1534F26B9963A0093FA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E482F5BA43E0FAF8FC47A946 /* Pods-IntegrandoBitrise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +453,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF1535B26B9AC670093FA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntegrandoBitriseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.IntegrandoBitriseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntegrandoBitrise.app/IntegrandoBitrise";
+			};
+			name = Debug;
+		};
+		FAF1535C26B9AC670093FA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntegrandoBitriseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.IntegrandoBitriseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntegrandoBitrise.app/IntegrandoBitrise";
 			};
 			name = Release;
 		};
@@ -321,6 +511,15 @@
 			buildConfigurations = (
 				FAF1534E26B9963A0093FA69 /* Debug */,
 				FAF1534F26B9963A0093FA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF1535D26B9AC670093FA69 /* Build configuration list for PBXNativeTarget "IntegrandoBitriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1535B26B9AC670093FA69 /* Debug */,
+				FAF1535C26B9AC670093FA69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
